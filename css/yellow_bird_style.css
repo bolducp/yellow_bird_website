@@ -1,0 +1,11 @@
+
+.text-special {
+    font-family: 'Shadows Into Light', cursive;
+    color:#BFBAA7;
+}
+
+.image_border {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #BFBAA7;
+}

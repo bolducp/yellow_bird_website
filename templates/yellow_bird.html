@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/yellow_bird_style.css">
+        <title>Yellow Bird</title>
+    </head>
+
+    <body style="background-color:#247F48; margin:10px" class="text-special" >
+        <div class="container">
+
+            <!-- First row: yellow bird image, photo gallery modal, and upper right hand 'Yellow Bird, Woodbury, TN text -->
+            <div class="row" style="margin:10px">
+                <div class="col-md-6">
+                    <img src="images/yb.jpeg" height="100" width="100" class="img-responsive" style="border:2px dashed #BFBAA7">
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="margin-top:10px">Paige's Yellow Bird Photo Gallery</button>
+                    <!-- Photo Gallery Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header" style="text-align:left">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Yellow Bird</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="images/yb0.jpg" class="img-responsive" style="max-height:400px; margin-left:3%"><br>
+                                    <img src="images/yb1.jpg" class="img-responsive" style="max-height:500px; margin-left:17%"><br>
+                                    <img src="images/yb2.jpg" class="img-responsive" style="max-height:300px"><br>
+                                    <img src="images/yb3.jpg" class="img-responsive" style="max-height:400px; margin-left:3%"><br>
+                                    <img src="images/yb4.jpg" class="img-responsive" style="max-height:400px; margin-left:3%"><br>
+                                    <img src="images/yb5.jpg" class="img-responsive" style="max-height:300px"><br>
+                                    <img src="images/yb6.jpg" class="img-responsive" style="max-height:500px; margin-left:17%; overflow:hidden"><br>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-right">
+                    <h1 class="text-uppercase">Yellow Bird</h1>
+                    <h3>Woodbury, Tennessee</h3>
+                </div>
+            </div>
+
+            <!-- Second row: big main image -->
+            <div class="row">
+                <img src="images/tn1.jpg" class="img-responsive" style="max-height:400px">
+            </div>
+
+            <!-- Third row: Explore Yellow Bird text -->
+            <div class="row">
+                <h2>Explore Yellow Bird</h2>
+            </div>
+
+            <!-- Forth row: four images and links to websites -->
+            <div class="row" style="text-align:center">
+                <div class="col-md-3">
+                    <a href="https://sites.google.com/site/yellowbirdonline/"><img src="images/tn2.jpg" class="img-responsive image_border"></a>
+                    <h3>On the Web</h3>
+                    <h4><a href="https://sites.google.com/site/yellowbirdonline/">Yellow Bird Website</a></h4>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="http://residencyunlimited.org/opportunities/yellow-bird-art-residencies/"><img src="images/tn5.jpg"  class="img-responsive image_border"></a>
+                    <h3>Artist Reprieve</h3>
+                    <h4><a href="http://residencyunlimited.org/opportunities/yellow-bird-art-residencies/">Artist Residencies</a></h4>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="http://yellowbirdscribble.blogspot.com/"><img src="images/tn.jpg" class="img-responsive image_border"></a>
+                    <h3>Blog</h3>
+                    <h4><a href="http://yellowbirdscribble.blogspot.com/">Yellow Bird Blog</a></h4>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="https://www.youtube.com/watch?v=RCeClk48Qlw"><img src="images/tn6.jpg" class="img-responsive image_border"></a>
+                    <h3>In Video Form</h3>
+                    <h4><a href="https://www.youtube.com/watch?v=RCeClk48Qlw">Yellow Bird Documentary</a></h4>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
