@@ -1,1 +1,1 @@
-web: gunicorn fflabs_dextro_callback:app
+web: gunicorn ybapp:app
